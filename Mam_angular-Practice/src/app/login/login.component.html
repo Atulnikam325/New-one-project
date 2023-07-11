@@ -1,1 +1,21 @@
-<p>login works!</p>
+<div class="container">
+
+    <h2 class="heading"> log in screen</h2>
+    <form #loginForm='ngForm' class="form-container">
+        <label class="label">User name</label> &nbsp;
+        <br>
+        <input type="text" class="inp-box" name="fullName" ngModel #fullName = 'ngModel' pattern="[a-zA-Z]"
+        required ><br>
+      <span class="err" *ngIf="fullName.errors?.['pattern'] && fullName.touched" >Alphabate only 
+      </span>
+        <br>
+        <label class="pass"> Password </label><br>
+
+        <input type="password" class="inp-pass"><br>
+
+        <button class="submit-btn"> Submit </button>
+
+
+    </form>
+
+</div>

@@ -1,0 +1,35 @@
+.parent{
+  background-color: antiquewhite;
+  height: 1000px;
+  width: 100%;
+
+    
+}
+.heading{
+    text-align: center;
+}
+
+.btn-login{
+  color: #130101;
+  background-color: aqua;
+}
+
+.pass{
+  font-size: 20px;
+  padding: 5px; 
+  position: relative;
+  top: 15px;
+}
+.inp-pass{
+  width: 200px;
+  padding: 5px;
+  margin-top: 21px;
+}
+.submit-btn{
+  background-color: coral;
+  border: none;
+  font-size: 20px;
+  padding: 3px 3px;
+  position: relative;
+  top: 51px;
+}
